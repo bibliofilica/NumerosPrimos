@@ -14,7 +14,7 @@ for x in range(num1, top):
              verificador+=1
          
     if verificador==0:
-        print ("El numero " + format(num) + " es primo")
+        print ("El numero " + format(num) + " es primo y tiene " + format(verificador) +" divisores")
 
     else:
         print ("El numero " + format(num) + " no es primo")
