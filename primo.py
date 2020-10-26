@@ -1,6 +1,6 @@
 import math
 num= int(input ("numero por favor "))
-raiz= int(math.sqrt(num))
+raiz= int(math.sqrt(num)) +1
 verificador=0
 for i in range (2,raiz):
      divisor= num%i
